@@ -25,7 +25,7 @@ $(document).ready(function () {
    function createSnake() {
         var snakeSize = 6;
         mySnakeArray = [];
-        for (var m = 0; m<snakeSize-1;m++) {
+        for (var m = 0; m<snakeSize-1; m++) {
             mySnakeArray.push({ x: 0, y: 20 });
         }
     }
