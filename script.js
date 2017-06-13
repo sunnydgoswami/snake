@@ -38,7 +38,7 @@ $(document).ready(function () {
      }
 
     function paintSnake() {
-        context.fillStyle = "#c0f0aa";
+        context.fillStyle = "#6c87ff";
         context.fillRect(0, 0, width, height);
         context.strokeStyle = "0000ff";
         context.strokeRect(0, 0, width, height);
